@@ -43,6 +43,7 @@ def run():
 
 menu_bar = Menu(compiler)
 
+#CRIA A BARRA DE MENUS
 file_menu = Menu(menu_bar, tearoff=0)
 file_menu.add_command(label='Abrir', command=open_file)
 file_menu.add_command(label='Salvar', command=save_as)
